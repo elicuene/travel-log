@@ -1,0 +1,82 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  border: 10px;
+  border-color: #0B202D;
+  border-radius: 10px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+
+.nav-logo {
+  width: 140px;
+  margin: 10px;
+}
+
+nav {
+  background-color: #0B202D;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+nav > h3 {
+  color: #FFFFFF;
+}
+
+.card-container {
+  display: flex;
+  gap: 19px;
+  margin-bottom: 36px;
+}
+
+.card-pic {
+  width:126px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.card-pin {
+  width: 10px;
+  height: 10px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.country-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  height: 20px;
+}
+
+.country-bar > a {
+  font-size: 10px;
+  margin-left: 6px;
+}
+
+.card-location {
+  margin-top: 0;
+  height: 30px;
+}
+
+.card-date {
+  margin-top: 0px;
+  height: 10px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.card-description {
+  font-size: 10px;
+  width: 326px;
+  height: 20px;
+  margin-top: 0px;
+}
